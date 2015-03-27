@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Includes FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+
+    <!-- Website CSS Theme Css -->
+
+</head>
+<body>
+<header class="header">
+    <div class="mid">
+        <div class="logo"><a href="#"></a></div>
+        <div class="autent">
+            <button class="bttn" id="reg">Реєстрація</button>
+            <button class="bttn" id="login">Увійти</button>
+            <div class="popupLogin" style="display:none">
+                <div class="arrowBox">
+                    <form name="loginForm" id="loginForm">
+                        <div class="signInFrame">
+                            <div class="signInTile signInTop">
+                                <input class="signInInput" id="login" maxlength="40" name="login" type="email" value="" placeholder="Email">
+                            </div>
+                            <div class="signInTile signInTile-bottom">
+                                <input class="signInInput" id="password" maxlength="20" name="password" type="password" placeholder="Пароль">
+                            </div>
+                        </div>
+                        <div class="submitButton">
+                            <input class="bttn subBtn" id ="subBtn" type="submit" value="Увійти"/>
+                        </div>
+                    </form>
+                    <div class="loginError" style="display:none" id="loginError">
+                        *Введено невірний логін/пароль, або користувач з таким іменем не існує.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="wrapper">
+
+        <div class="main">
+        <div id="items" class="row-fluid">
+
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="http://telegraf.com.ua/files/2014/07/Bronezhiletyi_ukrafoto-1.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Збір коштів на амуніцію</h4>
+                            <p>Данна волонтерська програма передбачає залученню коштів на допомогу батальйону "Азов", який на данний момент перебуває на передовій. </p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО ВОЛЯ </a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_02.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_01.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_03.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="http://telegraf.com.ua/files/2014/07/Bronezhiletyi_ukrafoto-1.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Збір коштів на амуніцію</h4>
+                            <p>Данна волонтерська програма передбачає залученню коштів на допомогу батальйону "Азов", який на данний момент перебуває на передовій. </p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО ВОЛЯ </a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_02.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_01.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_03.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="http://telegraf.com.ua/files/2014/07/Bronezhiletyi_ukrafoto-1.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Збір коштів на амуніцію</h4>
+                            <p>Данна волонтерська програма передбачає залученню коштів на допомогу батальйону "Азов", який на данний момент перебуває на передовій. </p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО ВОЛЯ </a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_02.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_01.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_03.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="http://telegraf.com.ua/files/2014/07/Bronezhiletyi_ukrafoto-1.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Збір коштів на амуніцію</h4>
+                            <p>Данна волонтерська програма передбачає залученню коштів на допомогу батальйону "Азов", який на данний момент перебуває на передовій. </p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО ВОЛЯ </a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_02.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_01.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" item masonry-brick">
+                <div class="picture">
+
+                    <a class="image" title="Title" href="#">
+                        <img alt="" src="img/image_03.jpg">
+                        <div class="slide-info">
+                                <span class=" pull-left">
+                                    <i title=""class="icon-calendar"></i>
+                                </span>
+                                <span class="pull-right">
+                                    15200
+                                    <i class="icon-user"></i>
+                                </span>
+                        </div>
+                    </a>
+                    <div class="item-content">
+                        <div class="description">
+                            <h4>Плетіння сітки</h4>
+                            <p>Потрібні волонтери для виготовлення маскувальних військових сіток [Тернопіль, Львів, Київ, Полтава]</p>
+                        </div>
+                        <div class="meta pull-left">
+								<span>
+									<a href="#"><img class="photo-micro" src="img/image_03.jpg" alt=""/>ВО Тизуб</a>
+								</span>
+                        </div>
+                        <div class="subscribe pull-right">
+                            <button class="subscribe-button"><i class="glyphicon glyphicon-ok"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        </div>
+        <div class="clearfix"></div>
+</div>
+<footer class="footer"></footer>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
