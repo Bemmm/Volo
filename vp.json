@@ -2,31 +2,7 @@
   {
     "name": "Плетіння Сітки",
     "description":"Потрібні волонтери для плетіння сітки",
-    "photo":"img/image01",
-    "organization": "ГО ВОЛЯ",
-    "datePub": "29.03.2015",
-    "dateStart": "01.04.2015",
-    "dateEnd": "07.04.2015",
-    "subscribers": "8",
-    "type": "tim",
-    "region":"Львів"
-  },
-  {
-    "name": "Плетіння Сітки",
-    "description":"Потрібні волонтери для плетіння сітки",
-    "photo":"img/image_02",
-    "organization": "ГО ВОЛЯ",
-    "datePub": "29.03.2015",
-    "dateStart": "01.04.2015",
-    "dateEnd": "07.04.2015",
-    "subscribers": "8",
-    "type": "tim",
-    "region":"Львів"
-  },
-  {
-    "name": "Плетіння Сітки",
-    "description":"Потрібні волонтери для плетіння сітки",
-    "photo":"/img/image_01",
+    "photo":"img/image01.jpg",
     "organization": "ГО ВОЛЯ",
     "datePub": "29.03.2015",
     "dateStart": "01.04.2015",
