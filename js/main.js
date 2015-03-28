@@ -41,6 +41,26 @@ $(document).ready(function(){
 
         //return false; // avoid to execute the actual submit of the form.
     });
+    //Парсинг шаблона ВП
+    $.ajax({
+        type:'GET',
+        url:'vp.json',
+        success: function(vpdata){
+            $.each(vpdata, function(i, data){
+                var view = data;
+                $.get('VPTemplate.html', function(script) {
+                    var template= $(script).filter('#VPTmpl').html();
+                    var html = Mustache.to_html(template, view);
+                    // and now append the html anywhere you like
+                    $('#items').prepend(html);
+
+                });
+            });
+        },
+        error:function(){
+            alert('Error loading orders');
+        }
+    });
 
 
 });

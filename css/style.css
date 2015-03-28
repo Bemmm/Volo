@@ -11,11 +11,9 @@ body{
 *:focus {
     outline: none;
 }
-.btn{
-
-}
-.bttn{
-
+.logo{
+    float:left;
+    margin-left:30px;
 }
 .header{
     min-width:100%;
@@ -339,7 +337,7 @@ input[type="file"] {
     -moz-border-radius: 2px 2px 0 0;
     -webkit-border-radius: 2px 2px 0 0;
     border-radius: 2px 2px 0 0;
-    height: auto;
+    height: 150px;
     position: relative;
     width: 100%;
     z-index: -1
